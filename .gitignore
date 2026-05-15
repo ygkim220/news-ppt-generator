@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyInstaller 빌드 산출물
+build/
+dist/
+*.spec
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# 임시/디버그 파일
+_test_*.py
+_debug_*.py
+_naver_dump.html
+
+# 생성된 PPT 파일 (개인 데이터)
+*.pptx
+*.ppt
+
+# OS
+Thumbs.db
+.DS_Store
