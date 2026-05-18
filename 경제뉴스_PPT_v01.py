@@ -30,7 +30,7 @@ HEADERS = {
 class NewsToPPTApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("경제 뉴스 → PPT 변환기 v1.0")
+        self.root.title("뉴스 검색기")
         self.root.geometry("780x720")
         self.root.configure(bg="#F5F6F7")
 
@@ -46,7 +46,7 @@ class NewsToPPTApp:
         header = tk.Frame(self.root, bg="#2C3E50", height=60)
         header.pack(fill="x")
         header.pack_propagate(False)
-        tk.Label(header, text="📰 경제 뉴스 → PPT 변환기",
+        tk.Label(header, text="📰 뉴스 검색기",
                  bg="#2C3E50", fg="white",
                  font=("맑은 고딕", 14, "bold")).pack(expand=True)
 
